@@ -1,0 +1,72 @@
+{
+  "project": "prehistoria",
+  "date_generated": "2026-07-31",
+  "paper": {
+    "openalex_id": "W2009525468",
+    "doi": "https://doi.org/10.2307/205279",
+    "title": "Engendering Archaeology: Women and Prehistory",
+    "authors": [
+      "Stephen L. Dyson",
+      "Joan M. Gero",
+      "Margaret W. Conkey"
+    ],
+    "year": 1992,
+    "journal": "The Journal of Interdisciplinary History",
+    "citation_count": 1075,
+    "openalex_url": "https://openalex.org/W2009525468",
+    "oa_url": null,
+    "abstract": "Preface. Part I: Considerations for an Archaeology of Gender: . 1. Tensions, Pluralities, and Engendering Archaeology: An Introduction to Women and Prehistory: Margaret W. Conkey and Joan M. Gero (University of California at Berkeley and University of South Carolina). 2. Gender Theory and the Archaeological Record: Why is There No Archaeology of Gender?: Alison Wylie (University of Western Ontario). Part II: Space and Gender Relations: . 3. Contexts of Action, Contexts for Power: Material Culture and Gender in the Magdalenian: Margaret W. Conkey (University of California at Berkeley). 4. Households with Faces: The Challenge of Gender in Prehistoric Architectural Remains: Ruth E. Tringham (University of California at Berkeley). 5. Gender, Space and Food in Prehistory: Christine A. Hastorf (University of Minnesota). Part III: Material Aspects of Gender Production:. 6. Genderlithics: Womena s Role in Stone Tool Production: Joan M. Gero (University of South Carolina). 7. Womena s Labor and Pottery Production in Prehistory: Rita P. Wright (University of New York). 8. Weaving and Cooking: Womena s Production in Aztec Mexico: Elizabeth Brumfiel (Albion College). Part IV: Gender and Food Systems:. 9. The Development of Horticulture in the Eastern Woodlands of North America: Womena s Role: Patty Jo Watson and Mary C. Kennedy (Washington University). 10. Shellfishing and the Shell Mound Archaic: Cheryl P. Claassen (Appalachian State University). 11. Pounding Acorn: Womena s Production as Social and Economic Focus: Thomas Jackson (Biosystems Analysis, Inc.). Part V: Images of Gender: . 12. Whose Art was Found at Lepenski Vir? Gender Relations and Power in Prehistory: Russell G. Handsman (American Indian Archaeological Institute). 13. Women in a Mena s World: Images of Sumerian Women: Susan Pollock (State University of New York at Binghamton). 14. What this All Means: Towards a Feminist Archaeology: Janet D. Spector (University of Minnesota). Epilogue: Henrietta L. Moore (London School of Economics and University of London)."
+  },
+  "quiz": [
+    {
+      "question": "¿Quiénes son los autores de la introducción del paper?",
+      "options": [
+        "Margaret W. Conkey y Joan M. Gero",
+        "Alison Wylie y Ruth E. Tringham",
+        "Christine A. Hastorf y Rita P. Wright",
+        "Elizabeth Brumfiel y Patty Jo Watson"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "¿Cuál de los siguientes temas NO se aborda en el paper?",
+      "options": [
+        "Producción de herramientas de piedra",
+        "Relaciones de género en la arquitectura",
+        "Política contemporánea",
+        "Sistemas alimentarios y género"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "¿Qué parte del paper se centra en la producción material relacionada con el género?",
+      "options": [
+        "Parte I",
+        "Parte II",
+        "Parte III",
+        "Parte IV"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "¿Quién aborda el tema de las mujeres y su papel en la producción de horticultura?",
+      "options": [
+        "Rita P. Wright",
+        "Patty Jo Watson y Mary C. Kennedy",
+        "Cheryl P. Claassen",
+        "Joan M. Gero"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Cuál es el enfoque de la sección final del paper?",
+      "options": [
+        "Imágenes de género",
+        "Espacio y relaciones de género",
+        "Teoría de género y el registro arqueológico",
+        "Hacia una arqueología feminista"
+      ],
+      "correct_index": 3
+    }
+  ]
+}

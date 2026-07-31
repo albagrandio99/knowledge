@@ -1,0 +1,60 @@
+{
+  "project": "geopolitica",
+  "date_generated": "2026-07-31",
+  "paper": {
+    "openalex_id": "W1584317255",
+    "doi": null,
+    "title": "The Myth of 1648: Class, Geopolitics, and the Making of Modern International Relations",
+    "authors": [
+      "Benno Teschke"
+    ],
+    "year": 2003,
+    "journal": null,
+    "citation_count": 751,
+    "openalex_url": "https://openalex.org/W1584317255",
+    "oa_url": "https://figshare.com/articles/book/The_myth_of_1648_class_geopolitics_and_the_making_of_modern_international_relations/23323964",
+    "abstract": "This book rejects a commonplace of European history: that the treaties of Westphalia not only closed the Thirty Years’ War but also inaugurated a new international order driven by the interaction of territorial sovereign states. Benno Teschke, through this thorough and incisive critique, argues that this is not the case. Domestic ‘social property relations’ shaped international relations in continental Europe down to 1789 and even beyond. The dynastic monarchies that ruled during this time differed from their medieval predecessors in degree and form of personalization, but not in underlying dynamic. 1648, therefore, is a false caesura in the history of international relations. For real change we must wait until relatively recent times and the development of modern states and true capitalism. In effect, it’s not until governments are run impersonally, with no function other than the exercise of its monopoly on violence, that modern international relations are born."
+  },
+  "quiz": [
+    {
+      "question": "¿Qué evento se considera un mito según el autor del libro?",
+      "options": [
+        "La firma de los tratados de Utrecht",
+        "El final de la Primera Guerra Mundial",
+        "El cierre de la Guerra de los Treinta Años en 1648",
+        "La Revolución Industrial"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "¿Cuál es la crítica principal de Benno Teschke sobre las relaciones internacionales tras 1648?",
+      "options": [
+        "Las relaciones internacionales estaban completamente desvinculadas de las relaciones sociales internas",
+        "La influencia de las relaciones de propiedad social en las relaciones internacionales fue menor de lo que se pensaba",
+        "El orden internacional fue únicamente impulsado por el establecimiento de estados territoriales soberanos",
+        "Las relaciones sociales internas influyeron en las relaciones internacionales hasta 1789 y más allá"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "Según el autor, ¿cuál es la verdadera condición necesaria para el nacimiento de las relaciones internacionales modernas?",
+      "options": [
+        "La llegada de la globalización",
+        "La aparición de gobiernos impersonales",
+        "La consolidación de las monarquías absolutas",
+        "El establecimiento de alianzas militares"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Cómo describe el autor a las monarquías dinásticas en comparación con sus predecesores medievales?",
+      "options": [
+        "Eran completamente diferentes en su estructura de poder",
+        "Mantenían diferencias en grado y forma de personalización pero no en dinámica subyacente",
+        "Eran menos personales y más burocráticas",
+        "No tenían ningún papel en las relaciones internacionales de la época"
+      ],
+      "correct_index": 1
+    }
+  ]
+}
