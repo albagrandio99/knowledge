@@ -30,8 +30,12 @@ su propia versión.
    revisa cada proyecto y comprueba si le toca ya una entrega nueva, según
    su `frequency_days`.
 2. Si le toca, `scripts/generate.py` busca un paper nuevo en OpenAlex sobre
-   el tema, pide a OpenAI que genere el examen a partir del resumen, y
-   guarda el resultado como un archivo JSON dentro del propio repositorio.
+   el tema. Si OpenAlex no tiene un enlace en abierto, se consulta también
+   [Unpaywall](https://unpaywall.org) (gratis, sin clave) por si existe una
+   copia legal en abierto (preprint, repositorio institucional...) que
+   OpenAlex no haya recogido. Luego pide a OpenAI que genere el examen a
+   partir del resumen, y guarda el resultado como un archivo JSON dentro
+   del propio repositorio.
 3. La web en `docs/` (publicada con GitHub Pages) simplemente lee esos
    JSON y los muestra — no hay servidor ni base de datos aparte, todo vive
    en el repositorio.

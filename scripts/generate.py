@@ -25,6 +25,7 @@ PROJECTS_DIR = REPO_ROOT / "docs" / "projects"
 OPENAI_MODEL = "gpt-4o-mini"
 
 OPENALEX_API_KEY = os.environ["OPENALEX_API_KEY"]
+UNPAYWALL_EMAIL = os.environ["UNPAYWALL_EMAIL"]
 openai_client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
 
@@ -149,6 +150,27 @@ def generate_quiz(title, abstract):
     return json.loads(completion.choices[0].message.content)["questions"]
 
 
+def find_open_access_url(doi):
+    """OpenAlex a veces marca un paper como cerrado aunque exista una copia
+    legal en abierto (preprint del autor, repositorio institucional...).
+    Unpaywall es gratis y no requiere clave, solo un email de contacto.
+    """
+    if not doi:
+        return None
+    bare_doi = doi.removeprefix("https://doi.org/")
+    try:
+        response = requests.get(
+            f"https://api.unpaywall.org/v2/{bare_doi}",
+            params={"email": UNPAYWALL_EMAIL},
+            timeout=10,
+        )
+        response.raise_for_status()
+    except requests.RequestException:
+        return None
+    best_location = response.json().get("best_oa_location")
+    return best_location["url"] if best_location else None
+
+
 def get_journal_name(work):
     primary_location = work.get("primary_location") or {}
     source = primary_location.get("source") or {}
@@ -193,13 +215,16 @@ def process_project(project_dir):
 
     questions = generate_quiz(work["title"], abstract)
 
+    doi = work.get("doi")
+    oa_url = (work.get("open_access") or {}).get("oa_url") or find_open_access_url(doi)
+
     today = date.today().isoformat()
     entry = {
         "project": slug,
         "date_generated": today,
         "paper": {
             "openalex_id": work["id"].rsplit("/", 1)[-1],
-            "doi": work.get("doi"),
+            "doi": doi,
             "title": work["title"],
             "authors": [
                 a["author"]["display_name"] for a in work.get("authorships", [])
@@ -208,7 +233,7 @@ def process_project(project_dir):
             "journal": get_journal_name(work),
             "citation_count": work.get("cited_by_count"),
             "openalex_url": work["id"],
-            "oa_url": (work.get("open_access") or {}).get("oa_url"),
+            "oa_url": oa_url,
             "abstract": abstract,
         },
         "quiz": questions,

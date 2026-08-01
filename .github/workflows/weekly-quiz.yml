@@ -24,6 +24,9 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          # Unpaywall no requiere clave, solo un email de contacto (no hace
+          # falta que sea secreto ni personal, por eso no está en Secrets).
+          UNPAYWALL_EMAIL: github-actions[bot]@users.noreply.github.com
 
       - name: Commit y push si hay entregas nuevas
         run: |
