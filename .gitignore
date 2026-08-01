@@ -1,0 +1,25 @@
+# Secretos y configuración local — nunca subir esto
+.env
+.env.local
+
+# macOS
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+
+# Python (por si el proyecto acaba usando Python)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node (por si el proyecto acaba usando JS/Node)
+node_modules/
+dist/
+build/
+
+# Logs y temporales
+*.log
+.tmp/

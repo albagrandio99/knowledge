@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>knowledge — entrega</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <a class="back-link" id="back-link" href="index.html">&larr; Volver</a>
+
+    <article id="paper-card" class="paper-card">
+      <p class="muted">Cargando…</p>
+    </article>
+
+    <section id="quiz-section" hidden>
+      <h2>Examen</h2>
+      <form id="quiz-form"></form>
+      <button type="button" id="quiz-submit">Corregir</button>
+      <p id="quiz-result" class="quiz-result" hidden></p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+  <script>
+    renderEntryPage();
+  </script>
+</body>
+</html>

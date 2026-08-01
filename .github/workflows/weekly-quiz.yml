@@ -1,0 +1,33 @@
+name: weekly-quiz
+
+on:
+  schedule:
+    - cron: "0 7 * * *" # todos los dias a las 07:00 UTC; generate.py decide si a cada tema le toca o no
+  workflow_dispatch: {} # permite lanzarlo a mano desde la pestaña Actions, para probar
+
+permissions:
+  contents: write # necesario para que el job pueda hacer commit y push
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r scripts/requirements.txt
+
+      - run: python scripts/generate.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+
+      - name: Commit y push si hay entregas nuevas
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/projects
+          git diff --cached --quiet || (git commit -m "Generar entregas semanales" && git push)
