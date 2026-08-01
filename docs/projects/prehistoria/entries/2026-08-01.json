@@ -2,60 +2,70 @@
   "project": "prehistoria",
   "date_generated": "2026-08-01",
   "paper": {
-    "openalex_id": "W560054831",
-    "doi": "https://doi.org/10.4324/9780203991879",
-    "title": "Archaeologies of Sexuality",
+    "openalex_id": "W1501212093",
+    "doi": "https://doi.org/10.4324/9781315739274-8",
+    "title": "Material evidence: learning from archaeological practice",
     "authors": [
-      "Robert A. Schmidt",
-      "Barbara L. Voss"
+      "Alison Wylie",
+      "Robert Chapman"
     ],
-    "year": 2005,
+    "year": 2014,
     "journal": null,
-    "citation_count": 148,
-    "openalex_url": "https://openalex.org/W560054831",
-    "oa_url": null,
-    "abstract": "Status, age and gender have long been accepted aspects of archaeological enquiry, yet it is only recently that archaeologists have started seriously to consider the role of sex and sexuality in their studies.Archaeologies of Sexuality is a timely and pioneering work. It presents a strong, diverse body of scholarship which draws on locations as varied as medieval England, the ancient Maya kingdoms, New Kingdom Egypt, prehistoric Europe, and convict-era Australia, demonstrating the challenges and rewards of integrating the study of sex and sexuality within archaeology.This volume, with contributions by many leading archaeologists, will serve both as an essential introduction and a valuable reference tool for students and academics."
+    "citation_count": 192,
+    "openalex_url": "https://openalex.org/W1501212093",
+    "oa_url": "https://api.taylorfrancis.com/content/chapters/edit/download?identifierName=doi&identifierValue=10.4324/9781315739274-8&type=chapterpdf",
+    "abstract": "Radiocarbon dating was a revolution, which entirely restructured the practice and understanding of prehistoric archaeology around the world, it provided an independent universal timeframe. The need for a secure known-age record of atmospheric 14 C ages was clear, and the obvious source was known-age tree-rings. The tree-ring calibration of the 14C timescale became the second radiocarbon revolution. The second radiocarbon revolution highlighted a temporal disconnect with the east Mediterranean-Egypt-Near East region, and so exacerbated the growing method-theory divide between much classical and Near Eastern archaeology. Neither the precision of the 14C calibration curve, nor the accuracy and precision of 14C measurements on archaeological samples, nor the relatively restricted availability of suitable large samples permitted finegrained issues to be settled. In addition to an increasingly refined, accurate and precise 14C calibration curve, the 1980s saw the advent of accelerator mass spectrometry (AMS) dating. The large sample requirements usually meant dating large charcoal samples from archaeological sites, and inevitably this meant dating tree-rings."
   },
   "quiz": [
     {
-      "question": "¿Qué aspectos han sido tradicionalmente aceptados en la investigación arqueológica antes de considerar la sexualidad?",
+      "question": "¿Cuál fue la revolución que reestructuró la práctica de la arqueología prehistórica a nivel mundial?",
       "options": [
-        "Estado, edad y género",
-        "Arte y religión",
-        "Economía y comercio",
-        "Geografía y clima"
+        "Radiocarbon dating",
+        "Tree-ring dating",
+        "Accelerator mass spectrometry",
+        "Isotopic analysis"
       ],
       "correct_index": 0
     },
     {
-      "question": "¿Cuáles son algunos de los lugares de estudio mencionados en el resumen?",
+      "question": "¿Qué fuente se utilizó para crear un registro de edades conocidas en la datación por radiocarbono?",
       "options": [
-        "Medieval Inglaterra y la antigua Roma",
-        "Antigua Grecia y medieval Francia",
-        "Antiguos maya y Egipto del Nuevo Reino",
-        "Asia y África contemporánea"
+        "Piedras antiguas",
+        "Árboles con anillos conocidos",
+        "Muestras de carbón",
+        "Sedimentos estratificados"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Qué problemáticas exacerbó la segunda revolución del radiocarbono en relación con la arqueología clásica y del Cercano Oriente?",
+      "options": [
+        "La falta de materiales arqueológicos",
+        "Un desconexión temporal",
+        "El uso de herramientas obsoletas",
+        "La limitación del espacio físico"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Qué técnica de datación se introdujo en la década de 1980 y permitió una mayor precisión en las mediciones de 14C?",
+      "options": [
+        "Datación por termoluminiscencia",
+        "Datación por radiocarbono convencional",
+        "Datación por espectrometría de masas de acelerador",
+        "Datación por estratigrafía"
       ],
       "correct_index": 2
     },
     {
-      "question": "¿Cuál es el propósito principal de 'Archaeologies of Sexuality' según el resumen?",
+      "question": "¿Por qué el tamaño de las muestras era un problema en la datación por radiocarbono?",
       "options": [
-        "Servir como una novela histórica",
-        "Proporcionar un enfoque sobre la economía arqueológica",
-        "Integrar el estudio de sexo y sexualidad en la arqueología",
-        "Evaluar las técnicas de excavación arqueológica"
+        "Porque requerían mucho tiempo",
+        "Porque se necesitaban grandes muestras de carbón",
+        "Porque las muestras eran muy costosas",
+        "Porque no se podían encontrar suficientes muestras"
       ],
-      "correct_index": 2
-    },
-    {
-      "question": "¿A quién está dirigido el volumen 'Archaeologies of Sexuality'?",
-      "options": [
-        "Solo a académicos",
-        "Todo público",
-        "Estudiantes y académicos",
-        "Museos y coleccionistas"
-      ],
-      "correct_index": 2
+      "correct_index": 1
     }
   ]
 }
