@@ -257,6 +257,7 @@ def process_project(project_dir):
 
     entries_index_path = project_dir / "index.json"
     entries_index = load_json(entries_index_path, [])
+    entries_index = [d for d in entries_index if d != today]
     entries_index.insert(0, today)
     write_json(entries_index_path, entries_index)
 
