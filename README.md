@@ -30,12 +30,15 @@ su propia versión.
    revisa cada proyecto y comprueba si le toca ya una entrega nueva, según
    su `frequency_days`.
 2. Si le toca, `scripts/generate.py` busca un paper nuevo en OpenAlex sobre
-   el tema. Si OpenAlex no tiene un enlace en abierto, se consulta también
-   [Unpaywall](https://unpaywall.org) (gratis, sin clave) por si existe una
-   copia legal en abierto (preprint, repositorio institucional...) que
-   OpenAlex no haya recogido. Luego pide a OpenAI que genere el examen a
-   partir del resumen, y guarda el resultado como un archivo JSON dentro
-   del propio repositorio.
+   el tema — **solo entre los que tienen copia legal en abierto**, para
+   que se pueda leer el paper de verdad y no solo el resumen. Como
+   respaldo, si OpenAlex no tiene un enlace en abierto para un candidato,
+   se consulta también [Unpaywall](https://unpaywall.org) (gratis, sin
+   clave) por si existe una copia (preprint, repositorio institucional...)
+   que OpenAlex no haya recogido; si de verdad no hay ninguna copia
+   gratuita, ese candidato se descarta y se prueba con el siguiente. Luego
+   pide a OpenAI que genere el examen a partir del resumen, y guarda el
+   resultado como un archivo JSON dentro del propio repositorio.
 3. La web en `docs/` (publicada con GitHub Pages) simplemente lee esos
    JSON y los muestra — no hay servidor ni base de datos aparte, todo vive
    en el repositorio.
@@ -102,7 +105,9 @@ el workflow lo recoge automáticamente en la siguiente ejecución.
    carpeta `/docs`.
 6. Lanzar el workflow una vez a mano desde la pestaña **Actions** ("Run
    workflow") para comprobar que todo funciona antes de esperar al primer
-   disparo programado.
+   disparo programado. Lanzarlo a mano siempre genera una entrega nueva
+   para cada tema (ignora `frequency_days`), así que sirve para probar las
+   veces que haga falta sin esperar días entre intento e intento.
 
 ## Probarlo en local
 

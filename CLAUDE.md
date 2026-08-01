@@ -39,13 +39,16 @@ misma app con sus propios temas.
   de `docs/projects/<tema>/entries/`. El propio job hace commit y push
   del resultado (`permissions: contents: write` en el workflow basta, no
   hace falta token aparte).
-- **Acceso abierto**: si el paper elegido no tiene `oa_url` en OpenAlex
-  (`open_access.oa_url`), `generate.py` consulta también Unpaywall
-  (`find_open_access_url`) antes de darlo por cerrado — a veces OpenAlex no
-  tiene indexada una copia legal (preprint del autor, repositorio
-  institucional...) que Unpaywall sí encuentra. Unpaywall no requiere clave,
-  solo un email de contacto (`UNPAYWALL_EMAIL`, ver workflow) — no hace
-  falta que sea un email personal.
+- **Acceso abierto**: la app solo tiene sentido si el paper se puede leer
+  de verdad, así que `find_candidate_paper` descarta cualquier candidato
+  sin copia legal en abierto en vez de recomendarlo igualmente.
+  `candidates_from_concepts`/`candidates_from_keywords` ya piden
+  `open_access.is_oa:true` a OpenAlex; los `related_works` de
+  `example_papers` no vienen filtrados por la API, así que ahí se
+  comprueba caso por caso (`oa_url` de OpenAlex o, si falta, Unpaywall vía
+  `find_open_access_url`) y se pasa al siguiente candidato si de verdad
+  está cerrado. Unpaywall no requiere clave, solo un email de contacto
+  (`UNPAYWALL_EMAIL`, ver workflow) — no hace falta que sea personal.
 - **`example_papers`**: nunca rellenar con DOIs inventados — deben ser
   papers reales que la persona dueña del tema conoce y quiere usar como
   referencia de enfoque. Si no los tiene todavía, dejar la lista vacía

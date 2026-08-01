@@ -27,6 +27,9 @@ jobs:
           # Unpaywall no requiere clave, solo un email de contacto (no hace
           # falta que sea secreto ni personal, por eso no está en Secrets).
           UNPAYWALL_EMAIL: github-actions[bot]@users.noreply.github.com
+          # Al lanzarlo a mano ("Run workflow") siempre genera una entrega,
+          # ignorando frequency_days -- útil para probar sin esperar días.
+          FORCE_GENERATE: ${{ github.event_name == 'workflow_dispatch' }}
 
       - name: Commit y push si hay entregas nuevas
         run: |

@@ -26,6 +26,9 @@ OPENAI_MODEL = "gpt-4o-mini"
 
 OPENALEX_API_KEY = os.environ["OPENALEX_API_KEY"]
 UNPAYWALL_EMAIL = os.environ["UNPAYWALL_EMAIL"]
+# Al lanzarlo a mano desde la pestaña Actions ("Run workflow") se ignora
+# frequency_days y se genera igualmente, para poder probar sin esperar días.
+FORCE_GENERATE = os.environ.get("FORCE_GENERATE", "false").lower() == "true"
 openai_client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
 
@@ -83,7 +86,7 @@ def candidates_from_concepts(concept_ids):
         return []
     result = openalex_get(
         "/works",
-        filter=f"concepts.id:{'|'.join(concept_ids)},has_abstract:true",
+        filter=f"concepts.id:{'|'.join(concept_ids)},has_abstract:true,open_access.is_oa:true",
         sort="cited_by_count:desc",
         per_page=25,
     )
@@ -96,7 +99,7 @@ def candidates_from_keywords(search_terms):
     result = openalex_get(
         "/works",
         search=search_terms,
-        filter="has_abstract:true",
+        filter="has_abstract:true,open_access.is_oa:true",
         sort="relevance_score:desc",
         per_page=25,
     )
@@ -125,9 +128,17 @@ def find_candidate_paper(config, used_ids):
         abstract = reconstruct_abstract(work.get("abstract_inverted_index"))
         if not abstract:
             continue
-        return work, abstract
+        # Un paper que no se puede leer gratis no sirve para esta app, aunque
+        # encaje en tema: candidates_from_concepts/keywords ya piden solo
+        # open_access.is_oa:true, pero los related_works de example_papers no
+        # vienen filtrados, así que aquí se comprueba (con Unpaywall de
+        # respaldo) y se descarta el candidato si de verdad está cerrado.
+        oa_url = (work.get("open_access") or {}).get("oa_url") or find_open_access_url(work.get("doi"))
+        if not oa_url:
+            continue
+        return work, abstract, oa_url
 
-    return None, None
+    return None, None, None
 
 
 def generate_quiz(title, abstract):
@@ -178,7 +189,7 @@ def get_journal_name(work):
 
 
 def is_due(config):
-    if not config.get("last_generated"):
+    if FORCE_GENERATE or not config.get("last_generated"):
         return True
     last = date.fromisoformat(config["last_generated"])
     return (date.today() - last).days >= config["frequency_days"]
@@ -208,15 +219,13 @@ def process_project(project_dir):
     used_path = project_dir / "used.json"
     used_ids = load_json(used_path, [])
 
-    work, abstract = find_candidate_paper(config, used_ids)
+    work, abstract, oa_url = find_candidate_paper(config, used_ids)
     if work is None:
-        print(f"[{slug}] no se encontró ningún paper nuevo, se salta esta vez.")
+        print(f"[{slug}] no se encontró ningún paper nuevo en abierto, se salta esta vez.")
         return
 
     questions = generate_quiz(work["title"], abstract)
-
     doi = work.get("doi")
-    oa_url = (work.get("open_access") or {}).get("oa_url") or find_open_access_url(doi)
 
     today = date.today().isoformat()
     entry = {
