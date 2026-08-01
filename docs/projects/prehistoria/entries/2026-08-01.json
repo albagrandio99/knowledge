@@ -1,0 +1,61 @@
+{
+  "project": "prehistoria",
+  "date_generated": "2026-08-01",
+  "paper": {
+    "openalex_id": "W560054831",
+    "doi": "https://doi.org/10.4324/9780203991879",
+    "title": "Archaeologies of Sexuality",
+    "authors": [
+      "Robert A. Schmidt",
+      "Barbara L. Voss"
+    ],
+    "year": 2005,
+    "journal": null,
+    "citation_count": 148,
+    "openalex_url": "https://openalex.org/W560054831",
+    "oa_url": null,
+    "abstract": "Status, age and gender have long been accepted aspects of archaeological enquiry, yet it is only recently that archaeologists have started seriously to consider the role of sex and sexuality in their studies.Archaeologies of Sexuality is a timely and pioneering work. It presents a strong, diverse body of scholarship which draws on locations as varied as medieval England, the ancient Maya kingdoms, New Kingdom Egypt, prehistoric Europe, and convict-era Australia, demonstrating the challenges and rewards of integrating the study of sex and sexuality within archaeology.This volume, with contributions by many leading archaeologists, will serve both as an essential introduction and a valuable reference tool for students and academics."
+  },
+  "quiz": [
+    {
+      "question": "¿Qué aspectos han sido tradicionalmente aceptados en la investigación arqueológica antes de considerar la sexualidad?",
+      "options": [
+        "Estado, edad y género",
+        "Arte y religión",
+        "Economía y comercio",
+        "Geografía y clima"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "¿Cuáles son algunos de los lugares de estudio mencionados en el resumen?",
+      "options": [
+        "Medieval Inglaterra y la antigua Roma",
+        "Antigua Grecia y medieval Francia",
+        "Antiguos maya y Egipto del Nuevo Reino",
+        "Asia y África contemporánea"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "¿Cuál es el propósito principal de 'Archaeologies of Sexuality' según el resumen?",
+      "options": [
+        "Servir como una novela histórica",
+        "Proporcionar un enfoque sobre la economía arqueológica",
+        "Integrar el estudio de sexo y sexualidad en la arqueología",
+        "Evaluar las técnicas de excavación arqueológica"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "¿A quién está dirigido el volumen 'Archaeologies of Sexuality'?",
+      "options": [
+        "Solo a académicos",
+        "Todo público",
+        "Estudiantes y académicos",
+        "Museos y coleccionistas"
+      ],
+      "correct_index": 2
+    }
+  ]
+}

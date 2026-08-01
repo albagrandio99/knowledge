@@ -1,0 +1,61 @@
+{
+  "project": "geopolitica",
+  "date_generated": "2026-08-01",
+  "paper": {
+    "openalex_id": "W2138439595",
+    "doi": "https://doi.org/10.1080/14650040600767859",
+    "title": "Geopolitics, International Relations and Political Geography: The Politics of Geopolitical Discourse",
+    "authors": [
+      "Virginie Mamadouh",
+      "Gertjan Dijkink"
+    ],
+    "year": 2006,
+    "journal": "Geopolitics",
+    "citation_count": 104,
+    "openalex_url": "https://openalex.org/W2138439595",
+    "oa_url": null,
+    "abstract": "It is a hazardous business to introduce research on geopolitical discourses in a journal called Geopolitics. For the past decade most of the work done on geopolitics – in geography at least – deals..."
+  },
+  "quiz": [
+    {
+      "question": "¿Cuál es el principal enfoque del paper según el resumen?",
+      "options": [
+        "El análisis económico de las relaciones internacionales",
+        "La crítica de los discursos geopolíticos",
+        "La historia de la geopolítica en la geografía",
+        "La influencia de la geografía física en las relaciones internacionales"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Qué aspecto se menciona como 'peligroso' en el resumen del paper?",
+      "options": [
+        "Introducir investigaciones sobre discursos geopolíticos en un journal específico",
+        "La falta de datos en la investigación geopolítica",
+        "La importancia de la geopolítica para las elecciones internacionales",
+        "Las implicaciones de los discursos geopolíticos en la política local"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Según el resumen, ¿qué ha sido el foco de la investigación en geopolítica durante la última década?",
+      "options": [
+        "Los impactos de la geopolítica en el cambio climático",
+        "Los discursos geopolíticos en la geografía",
+        "El desarrollo de teorías de relaciones internacionales",
+        "Las políticas económicas de los estados"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Qué tipo de discursos se centra el paper?",
+      "options": [
+        "Discursos económicos",
+        "Discursos sociales",
+        "Discursos geopolíticos",
+        "Discursos culturales"
+      ],
+      "correct_index": 2
+    }
+  ]
+}
