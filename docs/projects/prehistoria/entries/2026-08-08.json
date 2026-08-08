@@ -1,0 +1,70 @@
+{
+  "project": "prehistoria",
+  "date_generated": "2026-08-08",
+  "paper": {
+    "openalex_id": "W3165215089",
+    "doi": "https://doi.org/10.1017/9781316597590",
+    "title": "The Social Archaeology of Food",
+    "authors": [
+      "Christine A. Hastorf"
+    ],
+    "year": 2016,
+    "journal": "Cambridge University Press eBooks",
+    "citation_count": 169,
+    "openalex_url": "https://openalex.org/W3165215089",
+    "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F87315F221F498D14D49EBBA5932F0AE/9781316597590c3_p55-80_CBO.pdf/practices_of_a_meal_in_society.pdf",
+    "abstract": "This book offers a global perspective on the role food has played in shaping human societies, through both individual and collective identities. It integrates ethnographic and archaeological case studies from the European and Near Eastern Neolithic, Han China, ancient Cahokia, Classic Maya, the Inka and many other periods and regions, to ask how the meal in particular has acted as a social agent in the formation of society, economy, culture and identity. Drawing on a range of social theorists, Hastorf provides a theoretical toolkit essential for any archaeologist interested in foodways. Studying the social life of food, this book engages with taste, practice, the meal and the body to discuss power, identity, gender and meaning that creates our world as it created past societies."
+  },
+  "quiz": [
+    {
+      "question": "¿Cuál es el enfoque principal del libro 'The Social Archaeology of Food'?",
+      "options": [
+        "El papel del comida en la formación de identidades sociales",
+        "La historia de la agricultura en civilizaciones antiguas",
+        "Las recetas de cocina de diferentes culturas",
+        "La producción industrial de alimentos"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "¿Qué tipo de estudios se integran en el libro para abordar el tema de la comida?",
+      "options": [
+        "Estudios culinarios contemporáneos",
+        "Investigaciones etnográficas y arqueológicas",
+        "Análisis meteorológicos y geográficos",
+        "Estudios sobre la biología de los alimentos"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Según el resumen, ¿qué aspectos sociales e identitarios se discuten en relación con la comida?",
+      "options": [
+        "Solo la economía de los alimentos",
+        "Poder, identidad, género y significado",
+        "Las tradiciones culinarias de Europa",
+        "La evolución de las técnicas de cocina"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Qué periodo y regiones se mencionan como ejemplos en el estudio de la comida en el libro?",
+      "options": [
+        "La Edad Media en Europa",
+        "Neolítico europeo y cercano oriente, Han China, y la antigua Cahokia",
+        "La Revolución Industrial y su impacto en la alimentación",
+        "Cualquiera de los siglos XX y XXI en Estados Unidos"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Qué herramienta teórica se menciona que es esencial para arqueólogos interesados en las vías alimentarias?",
+      "options": [
+        "Un enfoque histórico",
+        "Un marco teórico basado en física",
+        "Un conjunto de herramientas teóricas",
+        "Una guía práctica para la cocina"
+      ],
+      "correct_index": 2
+    }
+  ]
+}

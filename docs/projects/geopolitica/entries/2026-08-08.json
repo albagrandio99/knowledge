@@ -1,0 +1,63 @@
+{
+  "project": "geopolitica",
+  "date_generated": "2026-08-08",
+  "paper": {
+    "openalex_id": "W3036964291",
+    "doi": "https://doi.org/10.1080/10357718.2020.1787333",
+    "title": "International relations and the Himalaya: connecting ecologies, cultures and geopolitics",
+    "authors": [
+      "Alexander E. Davis",
+      "Ruth Gamble",
+      "Gerald Roche",
+      "Lauren Gawne"
+    ],
+    "year": 2020,
+    "journal": "Australian Journal Of International Affairs",
+    "citation_count": 52,
+    "openalex_url": "https://openalex.org/W3036964291",
+    "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/10357718.2020.1787333?needAccess=true",
+    "abstract": "This article examines international relations (IR)'s approach to the Himalaya. We argue that the possibility of violent conflict over contested international borders is not the region's primary international challenge. Rather, slow violence inflicted by state-building and militarisation, intimately connected to geopolitical tensions, threaten the region's ecologies, cultures and languages. The Himalaya is home to three biodiversity hotspots and a mosaic of ethnic groups, many of whom speak threatened languages. Its ice-deposits feed most of Asia's large rivers. In recent years, India and China have pursued large-scale infrastructure development in the region, enabling greater militarisation and extraction, and a tourist rush. These threats are amplified by climate change, which is occurring in the Himalaya at twice global averages, contributing to landslides, flooding, and droughts. However, the region's complexity is not matched by IR's theorisations, which overwhelmingly focus on the possibility of violent conflict between state actors. We argue that IR's analysis of the region must go beyond a states-and-security, Delhi-Beijing-Islamabad centred approach, to look at the numerous interconnections between its geopolitics, cultures and ecologies. We suggest this can be accomplished through incorporating more interdisciplinary analysis, and through focusing on the interaction between the organisation of political authority and the region's environment."
+  },
+  "quiz": [
+    {
+      "question": "What is identified as the primary challenge for the Himalaya region in international relations?",
+      "options": [
+        "Violent conflict over borders",
+        "Slow violence from state-building",
+        "Tourism-related issues",
+        "Cultural preservation"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Which two countries are mentioned as pursuing large-scale infrastructure development in the Himalaya?",
+      "options": [
+        "India and Pakistan",
+        "Nepal and Bhutan",
+        "India and China",
+        "China and Bangladesh"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "What environmental issue is exacerbated in the Himalaya region due to climate change?",
+      "options": [
+        "Deforestation",
+        "Pollution",
+        "Erosion",
+        "Landslides"
+      ],
+      "correct_index": 3
+    },
+    {
+      "question": "According to the article, what aspect of international relations is criticized regarding its analysis of the Himalaya?",
+      "options": [
+        "Focus on cultural aspects",
+        "Lack of interdisciplinary analysis",
+        "Emphasis on economic factors",
+        "Acknowledgment of biodiversity"
+      ],
+      "correct_index": 1
+    }
+  ]
+}
