@@ -1,0 +1,30 @@
+{
+  "project": "prehistoria",
+  "date_generated": "2026-08-15",
+  "paper": {
+    "openalex_id": "W4241350657",
+    "doi": "https://doi.org/10.1017/cbo9781107444973",
+    "title": "Knowledge and Power in Prehistoric Societies",
+    "authors": [
+      "Lynne Kelly"
+    ],
+    "year": 2015,
+    "journal": "Cambridge University Press eBooks",
+    "citation_count": 108,
+    "openalex_url": "https://openalex.org/W4241350657",
+    "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/81F77DEA1DD6E7B6F759EF685110B6B4/9781107444973c2_p14-35_CBO.pdf/knowledge_and_power_in_oral_cultures.pdf",
+    "abstract": "In this book, Lynne Kelly explores the role of formal knowledge systems in small-scale oral cultures in both historic and archaeological contexts. In the first part, she examines knowledge systems within historically recorded oral cultures, showing how the link between power and the control of knowledge is established. Analyzing the material mnemonic devices used by documented oral cultures, she demonstrates how early societies maintained a vast corpus of pragmatic information concerning animal behavior, plant properties, navigation, astronomy, genealogies, laws and trade agreements, among other matters. In the second part Kelly turns to the archaeological record of three sites, Chaco Canyon, Poverty Point and Stonehenge, offering new insights into the purpose of the monuments and associated decorated objects. This book demonstrates how an understanding of rational intellect, pragmatic knowledge and mnemonic technologies in prehistoric societies offers a new tool for analysis of monumental structures built by non-literate cultures."
+  },
+  "quiz": [
+    {
+      "question": "¿Qué perspectiva ofrece el libro sobre las estructuras monumentales de culturas no literarias?",
+      "options": [
+        "Son irrelevantes y sin significado.",
+        "Solo se construyeron por razones estéticas.",
+        "Ofrecen una herramienta nueva para análisis mediante el conocimiento pragmático.",
+        "Nunca fueron utilizadas en rituales o ceremonias.",
+        "correct_index\": 2"
+      ]
+    }
+  ]
+}

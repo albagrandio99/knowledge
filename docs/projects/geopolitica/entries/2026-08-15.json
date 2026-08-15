@@ -1,0 +1,70 @@
+{
+  "project": "geopolitica",
+  "date_generated": "2026-08-15",
+  "paper": {
+    "openalex_id": "W1974253443",
+    "doi": "https://doi.org/10.1111/j.1541-0064.2001.tb01484.x",
+    "title": "Towards a feminist geopolitics",
+    "authors": [
+      "Jennifer Hyndman"
+    ],
+    "year": 2001,
+    "journal": "Canadian Geographies / Géographies canadiennes",
+    "citation_count": 322,
+    "openalex_url": "https://openalex.org/W1974253443",
+    "oa_url": "https://yorkspace.library.yorku.ca/bitstreams/f2aca359-15ba-4868-824e-ba49f7c255d5/download",
+    "abstract": "The intersections and conversations between feminist geography and political geography have been surprisingly few. The notion of a feminist geopolitics remains undeveloped in geography. This paper aims to create a theoretical and practical space in which to articulate a feminist geopolitics. Feminist geopolitics is not an alternative theory of geopolitics, nor the ushering in of a new spatial order, but is an approach to global issues with feminist politics in mind. ‘Feminist’ in this context refers to analyses and political interventions that address the unequal and often violent relationships among people based on real or perceived differences. Building upon the literature from critical geopolitics, feminist international relations, and transnational feminist studies, I develop a framework for feminist political engagement. The paper interrogates concepts of human security and juxtaposes them with state security, arguing for a more accountable, embodied, and responsive notion of geopolitics. A feminist geopolitics is sought by examining politics at scales other than that of the nation‐state; by challenging the public/private divide at a global scale; and by analyzing the politics of mobility for perpetrators of crimes against humanity. As such, feminist geopolitics is a critical approach and a contingent set of political practices operating at scales finer and coarser than the nation‐state."
+  },
+  "quiz": [
+    {
+      "question": "¿Qué busca el paper al desarrollar el concepto de feminismo en la geopolítica?",
+      "options": [
+        "Crear una nueva teoría de geopolítica",
+        "Articular un espacio teórico y práctico para una geopolítica feminista",
+        "Reemplazar el estado-nación con una nueva orden espacial",
+        "Eliminar la geopolítica en su totalidad"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Según el resumen, ¿qué se entiende por 'feminista' en el contexto de este trabajo?",
+      "options": [
+        "Un movimiento político que busca la dominación de las mujeres en la esfera política",
+        "Análisis e intervenciones políticas que abordan relaciones desiguales y violentas",
+        "Una crítica a la geopolítica sin fundamento en estudios previos",
+        "Una teoría que únicamente se centra en las relaciones internacionales"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Qué conceptos se interrogan en el paper en relación con la geopolítica?",
+      "options": [
+        "Seguridad humana y seguridad estatal",
+        "Sostenibilidad y desarrollo económico",
+        "Nacionalismo y globalización",
+        "Privacidad y derechos individuales"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "¿Cuál es un enfoque clave de la geopolítica feminista propuesto en el trabajo?",
+      "options": [
+        "El análisis de los problemas globales exclusivamente desde la perspectiva del estado-nación",
+        "El desafío a la división público/privado a escala global",
+        "El fomento de la militarización de las políticas de seguridad",
+        "La promoción de la violencia como método de resolución de conflictos"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Qué ámbito utiliza el trabajo para desarrollar la noción de geopolítica feminista?",
+      "options": [
+        "Un marco exclusivo de la historia militar",
+        "Literatura de la geopolítica crítica y estudios feministas transnacionales",
+        "Estadísticas económicas de diferentes países",
+        "Teorías antropológicas sobre la desigualdad de género"
+      ],
+      "correct_index": 1
+    }
+  ]
+}
