@@ -1,0 +1,67 @@
+{
+  "project": "prehistoria",
+  "date_generated": "2026-08-22",
+  "paper": {
+    "openalex_id": "W2609869963",
+    "doi": "https://doi.org/10.1146/annurev-genom-091416-035526",
+    "title": "A Robust Framework for Microbial Archaeology",
+    "authors": [
+      "Christina Warinner",
+      "Alexander Herbig",
+      "Allison E. Mann",
+      "James A. Fellows Yates",
+      "Clemens L. Weiß",
+      "Hernán A. Burbano",
+      "Ludovic Orlando",
+      "Johannes Krause"
+    ],
+    "year": 2017,
+    "journal": "Annual Review of Genomics and Human Genetics",
+    "citation_count": 215,
+    "openalex_url": "https://openalex.org/W2609869963",
+    "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-genom-091416-035526",
+    "abstract": "Microbial archaeology is flourishing in the era of high-throughput sequencing, revealing the agents behind devastating historical plagues, identifying the cryptic movements of pathogens in prehistory, and reconstructing the ancestral microbiota of humans. Here, we introduce the fundamental concepts and theoretical framework of the discipline, then discuss applied methodologies for pathogen identification and microbiome characterization from archaeological samples. We give special attention to the process of identifying, validating, and authenticating ancient microbes using high-throughput DNA sequencing data. Finally, we outline standards and precautions to guide future research in the field."
+  },
+  "quiz": [
+    {
+      "question": "¿Qué revela la arqueología microbiana según el resumen?",
+      "options": [
+        "La historia de los humanos prehistóricos",
+        "Los agentes detrás de plagas históricas",
+        "El comportamiento de los animales antiguos",
+        "La evolución de las plantas"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Cuál es uno de los enfoques metodológicos discutidos en el documento?",
+      "options": [
+        "Recolección de fósiles",
+        "Identificación de patógenos",
+        "Estudio de la arquitectura antigua",
+        "Análisis de artefactos culturales"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Qué aspecto especial se destaca en el proceso de identificación de microbios antiguos?",
+      "options": [
+        "El uso de microscopía óptica",
+        "La autenticación de datos de ADN de alta capacidad",
+        "El análisis de isótopos estables",
+        "El estudio de la morfología celular"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Qué se menciona que guiará la investigación futura en arqueología microbiana?",
+      "options": [
+        "Teorías históricas",
+        "Normas y precauciones",
+        "Técnicas de excavación",
+        "Exámenes de laboratorio convencionales"
+      ],
+      "correct_index": 1
+    }
+  ]
+}
