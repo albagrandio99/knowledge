@@ -1,0 +1,61 @@
+{
+  "project": "prehistoria",
+  "date_generated": "2026-08-29",
+  "paper": {
+    "openalex_id": "W2153295147",
+    "doi": null,
+    "title": "Coprolite Analysis: A Biological Perspective on Archaeology",
+    "authors": [
+      "Karl J. Reinhard",
+      "Baughn M Bryant"
+    ],
+    "year": 1992,
+    "journal": "Lincoln (University of Nebraska)",
+    "citation_count": 145,
+    "openalex_url": "https://openalex.org/W2153295147",
+    "oa_url": "http://digitalcommons.unl.edu/natresreinhard/35",
+    "abstract": "The most remarkable dietary remains recoverable from archaeological contexts are coprolites. Coprolites are desiccated or mineralized feces that are preserved in sheltered and open sites in arid regions, primarily in the New World. These dietary remains are remarkable from several perspectives. They typically contain a variety of macroscopic and microscopic remains that form interrelated data sets for the reconstruction of diets. Because contexts containing coprolites are typified by excellent preservation, the remains coprolites contain tend to be in better states of preservation than dietary remains recovered from nonfecal deposits. Coprolites also contain the well-preserved remains of intestinal parasites and pathogens which affected prehistoric health. Thus, coprolites provide excellent evidence of diet and disease for arid regons. Today, coprolites are recovered from caves, open sites, mummies, and occasionally from burials. Latrine deposits and trash middens are another source of coprolite data, even when individual coprolites are not identifiable in the soil matrix. Our paper offers a history of coprolite research, critically examines the types of data which can be recovered from human coprolites, evaluates interpretive value of coprolite data, and summarizes current directions in coprolite studies."
+  },
+  "quiz": [
+    {
+      "question": "¿Qué son los coprolitos?",
+      "options": [
+        "Restos de alimentos deshidratados",
+        "Feces mineralizadas o deshidratadas",
+        "Restos de animales en fósiles",
+        "Herramientas de piedra"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Cuál es una característica importante de los coprolitos en comparación con otros restos dietéticos?",
+      "options": [
+        "Se encuentran exclusivamente en sitios urbanos",
+        "Contienen parásitos intestinales y patógenos",
+        "Son más fáciles de identificar que otros restos",
+        "Sólo se recuperan de tumbas"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿De dónde se pueden recuperar coprolitos?",
+      "options": [
+        "Solo de cuevas",
+        "De contextos áridos como mummies, sitios abiertos y entierros",
+        "Exclusivamente de latrinas",
+        "De ningún lugar específico"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Qué aspecto de la salud prehistórica pueden revelar los coprolitos?",
+      "options": [
+        "El uso de herramientas",
+        "Enfermedades relacionadas con parásitos",
+        "Las condiciones climáticas",
+        "Las técnicas de caza"
+      ],
+      "correct_index": 1
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "project": "geopolitica",
+  "date_generated": "2026-08-29",
+  "paper": {
+    "openalex_id": "W1939041714",
+    "doi": "https://doi.org/10.14288/acme.v6i3.786",
+    "title": "Reflexivity, Positionality and Participatory Ethics: Negotiating Fieldwork Dilemmas in International Research",
+    "authors": [
+      "Farhana Sultana"
+    ],
+    "year": 2015,
+    "journal": "Open Collections",
+    "citation_count": 831,
+    "openalex_url": "https://openalex.org/W1939041714",
+    "oa_url": "https://doi.org/10.14288/acme.v6i3.786",
+    "abstract": "There are critical disjunctures between aspects of everyday behaviour in the field and the University’s institutional frameworks that aim to guide/enforce good ethical practice, as the conduct of fieldwork is always contextual, relational, embodied, and politicized. This paper argues that it is important to pay greater attention to issues of reflexivity, positionality and power relations in the field in order to undertake ethical and participatory research. Drawing from international fieldwork experience, the paper posits that such concerns are even more important in the context of multiple axes of difference, inequalities, and geopolitics, where the ethics and politics involved in research across boundaries and scales need to be heeded and negotiated in order to achieve more ethical research practices."
+  },
+  "quiz": [
+    {
+      "question": "¿Cuál es el enfoque principal del paper mencionado?",
+      "options": [
+        "Ética y prácticas participativas en la investigación",
+        "Métodos cuantitativos en la investigación internacional",
+        "Estadísticas de comportamiento en el campo",
+        "Marco teórico sobre la investigación universitaria"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "Según el resumen, ¿qué aspectos son cruciales a considerar durante el trabajo de campo?",
+      "options": [
+        "La tecnología utilizada en la investigación",
+        "La reflexividad, la positionalidad y las relaciones de poder",
+        "La duración del trabajo de campo",
+        "El número de participantes en la investigación"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Qué situaciones complicadas se mencionan en el contexto de la investigación internacional?",
+      "options": [
+        "Accesibilidad a recursos económicos",
+        "Diferencias, desigualdades y geopolítica",
+        "Limitaciones tecnológicas",
+        "Tamaño de la muestra"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Cuál de las siguientes prácticas se enfatiza como importante en el paper?",
+      "options": [
+        "Desarrollar teorías generales",
+        "Negociar la ética en la investigación",
+        "Reclutar más investigadores",
+        "Aumentar el uso de métodos cuantitativos"
+      ],
+      "correct_index": 1
+    }
+  ]
+}
