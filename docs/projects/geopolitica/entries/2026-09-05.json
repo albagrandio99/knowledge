@@ -1,0 +1,73 @@
+{
+  "project": "geopolitica",
+  "date_generated": "2026-09-05",
+  "paper": {
+    "openalex_id": "W3040566982",
+    "doi": "https://doi.org/10.1016/j.erss.2020.101667",
+    "title": "The new oil? The geopolitics and international governance of hydrogen",
+    "authors": [
+      "Thijs Van de Graaf",
+      "Indra Øverland",
+      "Daniel Scholten",
+      "Kirsten Westphal"
+    ],
+    "year": 2020,
+    "journal": "Energy Research & Social Science",
+    "citation_count": 347,
+    "openalex_url": "https://openalex.org/W3040566982",
+    "oa_url": "https://www.sciencedirect.com/science/article/pii/S2214629620302425/pdf",
+    "abstract": "While most hydrogen research focuses on the technical and cost hurdles to a full-scale hydrogen economy, little consideration has been given to the geopolitical drivers and consequences of hydrogen developments. The technologies and infrastructures underpinning a hydrogen economy can take markedly different forms, and the choice over which pathway to take is the object of competition between different stakeholders and countries. Over time, cross-border maritime trade in hydrogen has the potential to fundamentally redraw the geography of global energy trade, create a new class of energy exporters, and reshape geopolitical relations and alliances between countries. International governance and investments to scale up hydrogen value chains could reduce the risk of market fragmentation, carbon lock-in, and intensified geo-economic rivalry."
+  },
+  "quiz": [
+    {
+      "question": "¿Qué aspecto de la economía del hidrógeno se menciona como poco considerado en la mayoría de la investigación?",
+      "options": [
+        "Los desafíos técnicos y de costos",
+        "Los impulsores y consecuencias geopolíticas",
+        "La infraestructura de transporte",
+        "Las energías renovables alternativas"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "Según el resumen, ¿qué elemento tiene el potencial de redibujar la geografía del comercio energético global?",
+      "options": [
+        "El carbón",
+        "La electricidad",
+        "El hidrógeno",
+        "El gas natural"
+      ],
+      "correct_index": 2
+    },
+    {
+      "question": "¿Cuál es uno de los riesgos destacados en el resumen que podría reducirse mediante la gobernanza internacional y las inversiones en la cadena de valor del hidrógeno?",
+      "options": [
+        "La escasez de recursos",
+        "La fragmentación del mercado",
+        "El aumento de las emisiones de carbono",
+        "La competencia turbia"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Qué consecuencia política se menciona en relación con el desarrollo de la economía del hidrógeno?",
+      "options": [
+        "Un aumento en el consumo de petróleo",
+        "La creación de una nueva clase de exportadores de energía",
+        "La disminución de alianzas geopolíticas",
+        "La independencia energética de los países"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Qué aspecto de la economía del hidrógeno se menciona como objeto de competencia entre diferentes países?",
+      "options": [
+        "Los costos de producción",
+        "Las políticas ambientales",
+        "Las tecnologías y las infraestructuras",
+        "La utilización de recursos minerales"
+      ],
+      "correct_index": 2
+    }
+  ]
+}

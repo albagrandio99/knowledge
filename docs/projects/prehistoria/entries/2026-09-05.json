@@ -1,0 +1,60 @@
+{
+  "project": "prehistoria",
+  "date_generated": "2026-09-05",
+  "paper": {
+    "openalex_id": "W2094237519",
+    "doi": "https://doi.org/10.1017/s1380203805001583",
+    "title": "Experiencing the past? The development of a phenomenological archaeology in British prehistory",
+    "authors": [
+      "Joanna Brück"
+    ],
+    "year": 2005,
+    "journal": "Archaeological Dialogues",
+    "citation_count": 225,
+    "openalex_url": "https://openalex.org/W2094237519",
+    "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B8EA54DED37620E016057641EBF211DC/S1380203805001583a.pdf/div-class-title-experiencing-the-past-the-development-of-a-phenomenological-archaeology-in-british-prehistory-div.pdf",
+    "abstract": "In recent years the development of a phenomenological archaeology has provoked considerable discussion within the discipline, particularly within British prehistory. This paper provides a review of this challenging body of research, outlining its problems and potentials and setting it within its broader disciplinary context. Phenomenology has been used to great effect to critique the Cartesian rationalism inherent in traditional archaeological approaches, encouraging imaginative and valuable reinterpretations of the architecture and landscape settings of different monuments. Nonetheless, there are a number of significant problems raised by this work. The suggestion that the archaeologist’s embodied engagement with an ancient monument or landscape can provide an insight into past experiences and interpretations is critically considered. The epistemological status of the knowledge-claims made, including how and whether the patterns identified should be verified, is discussed. The contribution of phenomenology to postprocessual debates surrounding concepts of the self, the individual, embodiment and emotion are also explored. The work of key proponents of phenomenology such as Tilley and Thomas provides a particular focus, although a range of other authors are also considered."
+  },
+  "quiz": [
+    {
+      "question": "¿Qué enfoque ha provocado considerable discusión en la arqueología británica según el paper?",
+      "options": [
+        "Arqueología fenomenológica",
+        "Arqueología tradicional",
+        "Arqueología experimental",
+        "Arqueología cultural"
+      ],
+      "correct_index": 0
+    },
+    {
+      "question": "¿Cuál es uno de los problemas significativos discutidos en el trabajo sobre la arqueología fenomenológica?",
+      "options": [
+        "La falta de interés en la arquitectura",
+        "La crítica a la racionalidad cartesiana",
+        "La recolección de datos cuantitativos",
+        "El enfoque en la historia textual"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Qué aspectos se consideran en relación con la fenomenología en el contexto del paper?",
+      "options": [
+        "Metodologías de excavación",
+        "Debates postprocesuales sobre la identidad y emoción",
+        "Análisis estadístico de artefactos",
+        "Teorías de la evolución cultural"
+      ],
+      "correct_index": 1
+    },
+    {
+      "question": "¿Quiénes son mencionados como proponentes clave de la fenomenología en el artículo?",
+      "options": [
+        "Smith y Jones",
+        "Tilley y Thomas",
+        "Clayton y Robinson",
+        "Harris y White"
+      ],
+      "correct_index": 1
+    }
+  ]
+}
